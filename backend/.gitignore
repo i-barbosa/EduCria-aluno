@@ -1,0 +1,8 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+
+# Segredos locais - nunca commitar (use application-secrets.properties.example como modelo)
+application-secrets.properties

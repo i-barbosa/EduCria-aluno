@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: educria-aluno-db
+    environment:
+      POSTGRES_DB: educria_aluno
+      POSTGRES_USER: educria
+      POSTGRES_PASSWORD: educria
+    ports:
+      - "5432:5432"
+    volumes:
+      - educria_aluno_data:/var/lib/postgresql/data
+
+volumes:
+  educria_aluno_data:

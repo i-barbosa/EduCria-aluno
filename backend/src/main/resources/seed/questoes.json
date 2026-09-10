@@ -1,0 +1,4534 @@
+{
+  "assuntos": [
+    {
+      "nome": "JavaScript",
+      "disciplina": "Programacao",
+      "questoes": [
+        {
+          "nivel": 1,
+          "enunciado": "Qual palavra-chave declara uma variavel que nao pode ser reatribuida em JS?",
+          "alternativas": [
+            {
+              "texto": "let",
+              "correta": false
+            },
+            {
+              "texto": "const",
+              "correta": true
+            },
+            {
+              "texto": "var",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual comando imprime uma mensagem no console em JS?",
+          "alternativas": [
+            {
+              "texto": "print()",
+              "correta": false
+            },
+            {
+              "texto": "console.log()",
+              "correta": true
+            },
+            {
+              "texto": "echo()",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Como se inicia um comentario de uma linha em JavaScript?",
+          "alternativas": [
+            {
+              "texto": "#",
+              "correta": false
+            },
+            {
+              "texto": "<!--",
+              "correta": false
+            },
+            {
+              "texto": "//",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual simbolo convencionalmente finaliza uma instrucao em JS?",
+          "alternativas": [
+            {
+              "texto": ":",
+              "correta": false
+            },
+            {
+              "texto": ";",
+              "correta": true
+            },
+            {
+              "texto": ".",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "O que 'typeof \"oi\"' retorna em JS?",
+          "alternativas": [
+            {
+              "texto": "char",
+              "correta": false
+            },
+            {
+              "texto": "text",
+              "correta": false
+            },
+            {
+              "texto": "string",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual destes e um array valido em JavaScript?",
+          "alternativas": [
+            {
+              "texto": "(1, 2, 3)",
+              "correta": false
+            },
+            {
+              "texto": "[1, 2, 3]",
+              "correta": true
+            },
+            {
+              "texto": "{1, 2, 3}",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Uma variavel declarada mas nao inicializada tem qual valor?",
+          "alternativas": [
+            {
+              "texto": "null",
+              "correta": false
+            },
+            {
+              "texto": "NaN",
+              "correta": false
+            },
+            {
+              "texto": "undefined",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo representa verdadeiro ou falso em JS?",
+          "alternativas": [
+            {
+              "texto": "string",
+              "correta": false
+            },
+            {
+              "texto": "boolean",
+              "correta": true
+            },
+            {
+              "texto": "number",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "O que 'typeof null' retorna em JS (peculiaridade da linguagem)?",
+          "alternativas": [
+            {
+              "texto": "\"undefined\"",
+              "correta": false
+            },
+            {
+              "texto": "\"object\"",
+              "correta": true
+            },
+            {
+              "texto": "\"null\"",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Como se cria um objeto literal em JS?",
+          "alternativas": [
+            {
+              "texto": "{ chave: valor }",
+              "correta": true
+            },
+            {
+              "texto": "[ chave: valor ]",
+              "correta": false
+            },
+            {
+              "texto": "( chave = valor )",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador compara valor E tipo em JS?",
+          "alternativas": [
+            {
+              "texto": "=",
+              "correta": false
+            },
+            {
+              "texto": "==",
+              "correta": false
+            },
+            {
+              "texto": "===",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "O operador ternario ?: substitui qual estrutura simples?",
+          "alternativas": [
+            {
+              "texto": "switch",
+              "correta": false
+            },
+            {
+              "texto": "if/else",
+              "correta": true
+            },
+            {
+              "texto": "for",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador logico representa 'E' em JS?",
+          "alternativas": [
+            {
+              "texto": "||",
+              "correta": false
+            },
+            {
+              "texto": "!",
+              "correta": false
+            },
+            {
+              "texto": "&&",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Em JavaScript, quanto vale 5 % 2?",
+          "alternativas": [
+            {
+              "texto": "2",
+              "correta": false
+            },
+            {
+              "texto": "1",
+              "correta": true
+            },
+            {
+              "texto": "0",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual estrutura escolhe entre varios casos com base num valor?",
+          "alternativas": [
+            {
+              "texto": "switch",
+              "correta": true
+            },
+            {
+              "texto": "for",
+              "correta": false
+            },
+            {
+              "texto": "if",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual loop testa a condicao antes de cada repeticao?",
+          "alternativas": [
+            {
+              "texto": "forEach",
+              "correta": false
+            },
+            {
+              "texto": "do-while",
+              "correta": false
+            },
+            {
+              "texto": "while",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual loop e ideal quando se sabe o numero de repeticoes?",
+          "alternativas": [
+            {
+              "texto": "if",
+              "correta": false
+            },
+            {
+              "texto": "for",
+              "correta": true
+            },
+            {
+              "texto": "while",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual metodo de array executa uma funcao para cada elemento?",
+          "alternativas": [
+            {
+              "texto": "map",
+              "correta": false
+            },
+            {
+              "texto": "forEach",
+              "correta": true
+            },
+            {
+              "texto": "filter",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "O que a palavra break faz dentro de um loop?",
+          "alternativas": [
+            {
+              "texto": "Pula uma iteracao",
+              "correta": false
+            },
+            {
+              "texto": "Interrompe o loop",
+              "correta": true
+            },
+            {
+              "texto": "Reinicia o loop",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "O que a palavra continue faz dentro de um loop?",
+          "alternativas": [
+            {
+              "texto": "Pula para a proxima iteracao",
+              "correta": true
+            },
+            {
+              "texto": "Interrompe o loop",
+              "correta": false
+            },
+            {
+              "texto": "Repete a mesma iteracao",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual sintaxe declara uma funcao nomeada tradicional em JS?",
+          "alternativas": [
+            {
+              "texto": "def nome():",
+              "correta": false
+            },
+            {
+              "texto": "function nome(){}",
+              "correta": true
+            },
+            {
+              "texto": "nome => {}",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Como se declara uma arrow function em JS?",
+          "alternativas": [
+            {
+              "texto": "() => {}",
+              "correta": true
+            },
+            {
+              "texto": "function => {}",
+              "correta": false
+            },
+            {
+              "texto": "=> () {}",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "O que uma funcao retorna quando nao tem return explicito?",
+          "alternativas": [
+            {
+              "texto": "null",
+              "correta": false
+            },
+            {
+              "texto": "0",
+              "correta": false
+            },
+            {
+              "texto": "undefined",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Como se chamam os valores passados numa chamada de funcao?",
+          "alternativas": [
+            {
+              "texto": "Parametros formais",
+              "correta": false
+            },
+            {
+              "texto": "Argumentos",
+              "correta": true
+            },
+            {
+              "texto": "Atributos",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Arrow functions nao possuem seu proprio valor de qual palavra-chave?",
+          "alternativas": [
+            {
+              "texto": "function",
+              "correta": false
+            },
+            {
+              "texto": "this",
+              "correta": true
+            },
+            {
+              "texto": "return",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual metodo de array cria um novo array transformando cada elemento?",
+          "alternativas": [
+            {
+              "texto": "push",
+              "correta": false
+            },
+            {
+              "texto": "forEach",
+              "correta": false
+            },
+            {
+              "texto": "map",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual metodo de array filtra elementos com base numa condicao?",
+          "alternativas": [
+            {
+              "texto": "filter",
+              "correta": true
+            },
+            {
+              "texto": "sort",
+              "correta": false
+            },
+            {
+              "texto": "map",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual metodo de array reduz todos os elementos a um unico valor?",
+          "alternativas": [
+            {
+              "texto": "reduce",
+              "correta": true
+            },
+            {
+              "texto": "map",
+              "correta": false
+            },
+            {
+              "texto": "concat",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual metodo retorna as chaves de um objeto como array?",
+          "alternativas": [
+            {
+              "texto": "Object.entries()",
+              "correta": false
+            },
+            {
+              "texto": "Object.keys()",
+              "correta": true
+            },
+            {
+              "texto": "Object.values()",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual metodo adiciona um elemento ao final de um array?",
+          "alternativas": [
+            {
+              "texto": "push",
+              "correta": true
+            },
+            {
+              "texto": "shift",
+              "correta": false
+            },
+            {
+              "texto": "pop",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "O que e uma closure em JavaScript?",
+          "alternativas": [
+            {
+              "texto": "Um tipo de loop",
+              "correta": false
+            },
+            {
+              "texto": "Uma funcao que lembra o escopo onde foi criada",
+              "correta": true
+            },
+            {
+              "texto": "Um metodo de array",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Uma variavel declarada com var tem escopo de que nivel?",
+          "alternativas": [
+            {
+              "texto": "Modulo",
+              "correta": false
+            },
+            {
+              "texto": "Funcao",
+              "correta": true
+            },
+            {
+              "texto": "Bloco",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Uma variavel declarada com let tem escopo de que nivel?",
+          "alternativas": [
+            {
+              "texto": "Global sempre",
+              "correta": false
+            },
+            {
+              "texto": "Bloco",
+              "correta": true
+            },
+            {
+              "texto": "Funcao",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "O que acontece ao declarar duas const com o mesmo nome no mesmo escopo?",
+          "alternativas": [
+            {
+              "texto": "A segunda sobrescreve a primeira",
+              "correta": false
+            },
+            {
+              "texto": "Nada, ambas coexistem",
+              "correta": false
+            },
+            {
+              "texto": "Erro de sintaxe",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Uma funcao interna pode acessar variaveis da funcao externa que a contem?",
+          "alternativas": [
+            {
+              "texto": "Sim",
+              "correta": true
+            },
+            {
+              "texto": "Somente com import",
+              "correta": false
+            },
+            {
+              "texto": "Nao",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Numa arrow function, a quem 'this' se refere?",
+          "alternativas": [
+            {
+              "texto": "Ao escopo lexico onde foi definida",
+              "correta": true
+            },
+            {
+              "texto": "Sempre ao objeto global",
+              "correta": false
+            },
+            {
+              "texto": "Ao objeto que a chamou",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual metodo fixa permanentemente o valor de 'this' numa funcao?",
+          "alternativas": [
+            {
+              "texto": "call",
+              "correta": false
+            },
+            {
+              "texto": "apply",
+              "correta": false
+            },
+            {
+              "texto": "bind",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Os metodos call e apply servem para qual finalidade?",
+          "alternativas": [
+            {
+              "texto": "Chamar uma funcao definindo o this",
+              "correta": true
+            },
+            {
+              "texto": "Declarar uma funcao",
+              "correta": false
+            },
+            {
+              "texto": "Criar uma closure",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Num metodo comum de objeto, a quem 'this' normalmente se refere?",
+          "alternativas": [
+            {
+              "texto": "Ao objeto que chamou o metodo",
+              "correta": true
+            },
+            {
+              "texto": "Ao escopo global",
+              "correta": false
+            },
+            {
+              "texto": "A funcao pai",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "O que 'this' representa no escopo global de um navegador?",
+          "alternativas": [
+            {
+              "texto": "undefined sempre",
+              "correta": false
+            },
+            {
+              "texto": "O objeto window",
+              "correta": true
+            },
+            {
+              "texto": "O documento HTML",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "O que uma Promise representa em JavaScript?",
+          "alternativas": [
+            {
+              "texto": "Um tipo de array",
+              "correta": false
+            },
+            {
+              "texto": "Um valor futuro, de sucesso ou falha",
+              "correta": true
+            },
+            {
+              "texto": "Uma funcao sincrona",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual palavra-chave pausa a execucao ate a Promise resolver, dentro de uma funcao async?",
+          "alternativas": [
+            {
+              "texto": "pause",
+              "correta": false
+            },
+            {
+              "texto": "await",
+              "correta": true
+            },
+            {
+              "texto": "yield",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual metodo trata o erro de uma Promise?",
+          "alternativas": [
+            {
+              "texto": ".catch()",
+              "correta": true
+            },
+            {
+              "texto": ".fail()",
+              "correta": false
+            },
+            {
+              "texto": ".error()",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Uma funcao declarada como async sempre retorna o que?",
+          "alternativas": [
+            {
+              "texto": "Um objeto simples",
+              "correta": false
+            },
+            {
+              "texto": "Uma Promise",
+              "correta": true
+            },
+            {
+              "texto": "undefined",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual metodo executa varias Promises em paralelo e espera todas terminarem?",
+          "alternativas": [
+            {
+              "texto": "Promise.race()",
+              "correta": false
+            },
+            {
+              "texto": "Promise.any()",
+              "correta": false
+            },
+            {
+              "texto": "Promise.all()",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "O que o operador spread (...) faz com um array?",
+          "alternativas": [
+            {
+              "texto": "Espalha os elementos individualmente",
+              "correta": true
+            },
+            {
+              "texto": "Remove duplicatas",
+              "correta": false
+            },
+            {
+              "texto": "Junta tudo numa string",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Como desestruturar um objeto em variaveis separadas?",
+          "alternativas": [
+            {
+              "texto": "const [a, b] = objeto;",
+              "correta": false
+            },
+            {
+              "texto": "const a, b = objeto;",
+              "correta": false
+            },
+            {
+              "texto": "const { a, b } = objeto;",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual palavra-chave declara uma classe em JavaScript moderno?",
+          "alternativas": [
+            {
+              "texto": "struct",
+              "correta": false
+            },
+            {
+              "texto": "object",
+              "correta": false
+            },
+            {
+              "texto": "class",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Para que servem import e export em JavaScript?",
+          "alternativas": [
+            {
+              "texto": "Organizar codigo em modulos",
+              "correta": true
+            },
+            {
+              "texto": "Declarar variaveis globais",
+              "correta": false
+            },
+            {
+              "texto": "Criar loops",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "O que o operador rest (...args) faz num parametro de funcao?",
+          "alternativas": [
+            {
+              "texto": "Agrupa os argumentos restantes num array",
+              "correta": true
+            },
+            {
+              "texto": "Remove o ultimo argumento",
+              "correta": false
+            },
+            {
+              "texto": "Duplica os argumentos",
+              "correta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "CSS",
+      "disciplina": "Programacao",
+      "questoes": [
+        {
+          "nivel": 1,
+          "enunciado": "Qual seletor aplica estilo a todos os elementos com uma classe?",
+          "alternativas": [
+            {
+              "texto": "nome",
+              "correta": false
+            },
+            {
+              "texto": "#nome",
+              "correta": false
+            },
+            {
+              "texto": ".nome",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual seletor aplica estilo a um elemento com um id especifico?",
+          "alternativas": [
+            {
+              "texto": "#nome",
+              "correta": true
+            },
+            {
+              "texto": ".nome",
+              "correta": false
+            },
+            {
+              "texto": "*nome",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual seletor aplica estilo a todos os paragrafos da pagina?",
+          "alternativas": [
+            {
+              "texto": "#p",
+              "correta": false
+            },
+            {
+              "texto": ".p",
+              "correta": false
+            },
+            {
+              "texto": "p",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Como combinar um seletor de elemento com uma classe (paragrafo com classe destaque)?",
+          "alternativas": [
+            {
+              "texto": "p.destaque",
+              "correta": true
+            },
+            {
+              "texto": "p+destaque",
+              "correta": false
+            },
+            {
+              "texto": "p:destaque",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual seletor aplica estilo a absolutamente todos os elementos da pagina?",
+          "alternativas": [
+            {
+              "texto": "*",
+              "correta": true
+            },
+            {
+              "texto": "all",
+              "correta": false
+            },
+            {
+              "texto": "%",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual propriedade define o espaco interno entre o conteudo e a borda?",
+          "alternativas": [
+            {
+              "texto": "border",
+              "correta": false
+            },
+            {
+              "texto": "padding",
+              "correta": true
+            },
+            {
+              "texto": "margin",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual propriedade define o espaco externo entre elementos?",
+          "alternativas": [
+            {
+              "texto": "margin",
+              "correta": true
+            },
+            {
+              "texto": "padding",
+              "correta": false
+            },
+            {
+              "texto": "gap",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual propriedade define a borda de um elemento?",
+          "alternativas": [
+            {
+              "texto": "frame",
+              "correta": false
+            },
+            {
+              "texto": "border",
+              "correta": true
+            },
+            {
+              "texto": "outline",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "No box model padrao (content-box), width inclui padding e border?",
+          "alternativas": [
+            {
+              "texto": "Somente o padding",
+              "correta": false
+            },
+            {
+              "texto": "Nao",
+              "correta": true
+            },
+            {
+              "texto": "Sim",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual valor de box-sizing faz width incluir padding e border?",
+          "alternativas": [
+            {
+              "texto": "content-box",
+              "correta": false
+            },
+            {
+              "texto": "border-box",
+              "correta": true
+            },
+            {
+              "texto": "full-box",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual unidade CSS e relativa ao tamanho de fonte do elemento raiz (html)?",
+          "alternativas": [
+            {
+              "texto": "vh",
+              "correta": false
+            },
+            {
+              "texto": "rem",
+              "correta": true
+            },
+            {
+              "texto": "px",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Como representar a cor vermelha pura em hexadecimal?",
+          "alternativas": [
+            {
+              "texto": "#0000FF",
+              "correta": false
+            },
+            {
+              "texto": "#FF0000",
+              "correta": true
+            },
+            {
+              "texto": "#00FF00",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual unidade CSS representa pixels absolutos?",
+          "alternativas": [
+            {
+              "texto": "px",
+              "correta": true
+            },
+            {
+              "texto": "%",
+              "correta": false
+            },
+            {
+              "texto": "em",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "A funcao rgba() adiciona qual componente a uma cor RGB?",
+          "alternativas": [
+            {
+              "texto": "Alfa (transparencia)",
+              "correta": true
+            },
+            {
+              "texto": "Brilho",
+              "correta": false
+            },
+            {
+              "texto": "Saturacao",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual unidade e relativa a largura da viewport?",
+          "alternativas": [
+            {
+              "texto": "vh",
+              "correta": false
+            },
+            {
+              "texto": "rem",
+              "correta": false
+            },
+            {
+              "texto": "vw",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual propriedade define o tamanho da fonte?",
+          "alternativas": [
+            {
+              "texto": "font-scale",
+              "correta": false
+            },
+            {
+              "texto": "text-size",
+              "correta": false
+            },
+            {
+              "texto": "font-size",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual propriedade deixa o texto em negrito?",
+          "alternativas": [
+            {
+              "texto": "font-weight",
+              "correta": true
+            },
+            {
+              "texto": "font-style",
+              "correta": false
+            },
+            {
+              "texto": "text-bold",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual propriedade alinha o texto horizontalmente?",
+          "alternativas": [
+            {
+              "texto": "align-text",
+              "correta": false
+            },
+            {
+              "texto": "text-position",
+              "correta": false
+            },
+            {
+              "texto": "text-align",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual propriedade define o espacamento entre linhas de texto?",
+          "alternativas": [
+            {
+              "texto": "line-height",
+              "correta": true
+            },
+            {
+              "texto": "text-spacing",
+              "correta": false
+            },
+            {
+              "texto": "letter-height",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual propriedade transforma um texto para maiusculas via CSS?",
+          "alternativas": [
+            {
+              "texto": "text-case",
+              "correta": false
+            },
+            {
+              "texto": "text-transform",
+              "correta": true
+            },
+            {
+              "texto": "font-transform",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual valor de display faz o elemento ocupar toda a largura e quebrar linha?",
+          "alternativas": [
+            {
+              "texto": "none",
+              "correta": false
+            },
+            {
+              "texto": "block",
+              "correta": true
+            },
+            {
+              "texto": "inline",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual valor de display remove o elemento do fluxo, sem ocupar espaco algum?",
+          "alternativas": [
+            {
+              "texto": "invisible",
+              "correta": false
+            },
+            {
+              "texto": "hidden",
+              "correta": false
+            },
+            {
+              "texto": "none",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual valor de display permite width/height mas mantem elementos lado a lado?",
+          "alternativas": [
+            {
+              "texto": "flex",
+              "correta": false
+            },
+            {
+              "texto": "inline-block",
+              "correta": true
+            },
+            {
+              "texto": "block",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual e o display padrao de um elemento <span>?",
+          "alternativas": [
+            {
+              "texto": "inline",
+              "correta": true
+            },
+            {
+              "texto": "block",
+              "correta": false
+            },
+            {
+              "texto": "inline-block",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual e o display padrao de um elemento <div>?",
+          "alternativas": [
+            {
+              "texto": "inline",
+              "correta": false
+            },
+            {
+              "texto": "block",
+              "correta": true
+            },
+            {
+              "texto": "flex",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual valor de position tira o elemento do fluxo e o fixa em relacao a janela?",
+          "alternativas": [
+            {
+              "texto": "fixed",
+              "correta": true
+            },
+            {
+              "texto": "static",
+              "correta": false
+            },
+            {
+              "texto": "relative",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual valor de position posiciona o elemento em relacao ao ancestral posicionado mais proximo?",
+          "alternativas": [
+            {
+              "texto": "absolute",
+              "correta": true
+            },
+            {
+              "texto": "sticky",
+              "correta": false
+            },
+            {
+              "texto": "static",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual e o valor padrao de position de todo elemento?",
+          "alternativas": [
+            {
+              "texto": "relative",
+              "correta": false
+            },
+            {
+              "texto": "static",
+              "correta": true
+            },
+            {
+              "texto": "absolute",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "position: relative desloca o elemento em relacao a que?",
+          "alternativas": [
+            {
+              "texto": "A janela do navegador",
+              "correta": false
+            },
+            {
+              "texto": "A sua propria posicao original",
+              "correta": true
+            },
+            {
+              "texto": "Ao elemento pai",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual propriedade define a distancia do topo num elemento posicionado?",
+          "alternativas": [
+            {
+              "texto": "top",
+              "correta": true
+            },
+            {
+              "texto": "top-offset",
+              "correta": false
+            },
+            {
+              "texto": "position-top",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual propriedade transforma um container em flex container?",
+          "alternativas": [
+            {
+              "texto": "flex: true",
+              "correta": false
+            },
+            {
+              "texto": "layout: flex",
+              "correta": false
+            },
+            {
+              "texto": "display: flex",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual propriedade do flex container define a direcao dos itens?",
+          "alternativas": [
+            {
+              "texto": "flex-flow",
+              "correta": false
+            },
+            {
+              "texto": "flex-direction",
+              "correta": true
+            },
+            {
+              "texto": "flex-order",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual propriedade centraliza itens no eixo principal do flex?",
+          "alternativas": [
+            {
+              "texto": "justify-content",
+              "correta": true
+            },
+            {
+              "texto": "align-items",
+              "correta": false
+            },
+            {
+              "texto": "align-content",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual propriedade centraliza itens no eixo cruzado do flex?",
+          "alternativas": [
+            {
+              "texto": "flex-align",
+              "correta": false
+            },
+            {
+              "texto": "align-items",
+              "correta": true
+            },
+            {
+              "texto": "justify-content",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual propriedade permite que os itens flex quebrem para uma nova linha?",
+          "alternativas": [
+            {
+              "texto": "flex-line",
+              "correta": false
+            },
+            {
+              "texto": "flex-wrap",
+              "correta": true
+            },
+            {
+              "texto": "flex-break",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual propriedade transforma um container em grid container?",
+          "alternativas": [
+            {
+              "texto": "grid: true",
+              "correta": false
+            },
+            {
+              "texto": "display: grid",
+              "correta": true
+            },
+            {
+              "texto": "layout: grid",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual propriedade define as colunas de um grid?",
+          "alternativas": [
+            {
+              "texto": "grid-cols",
+              "correta": false
+            },
+            {
+              "texto": "grid-template-columns",
+              "correta": true
+            },
+            {
+              "texto": "grid-columns",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual funcao cria colunas de tamanho igual num grid?",
+          "alternativas": [
+            {
+              "texto": "repeat()",
+              "correta": true
+            },
+            {
+              "texto": "equal()",
+              "correta": false
+            },
+            {
+              "texto": "fill()",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual propriedade define o espaco entre linhas e colunas do grid?",
+          "alternativas": [
+            {
+              "texto": "gap",
+              "correta": true
+            },
+            {
+              "texto": "margin-grid",
+              "correta": false
+            },
+            {
+              "texto": "spacing",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual propriedade posiciona um item numa area nomeada do grid?",
+          "alternativas": [
+            {
+              "texto": "grid-position",
+              "correta": false
+            },
+            {
+              "texto": "grid-place",
+              "correta": false
+            },
+            {
+              "texto": "grid-area",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Para que serve uma media query em CSS?",
+          "alternativas": [
+            {
+              "texto": "Definir cores globais",
+              "correta": false
+            },
+            {
+              "texto": "Carregar imagens mais rapido",
+              "correta": false
+            },
+            {
+              "texto": "Aplicar estilos conforme o tamanho da tela",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual regra CSS inicia uma media query?",
+          "alternativas": [
+            {
+              "texto": "@media",
+              "correta": true
+            },
+            {
+              "texto": "@screen",
+              "correta": false
+            },
+            {
+              "texto": "@responsive",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual meta tag no HTML e essencial para o design responsivo funcionar?",
+          "alternativas": [
+            {
+              "texto": "description",
+              "correta": false
+            },
+            {
+              "texto": "viewport",
+              "correta": true
+            },
+            {
+              "texto": "charset",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Unidades relativas como %, vw e rem ajudam em que no design responsivo?",
+          "alternativas": [
+            {
+              "texto": "Adaptar tamanhos a diferentes telas",
+              "correta": true
+            },
+            {
+              "texto": "Melhorar SEO",
+              "correta": false
+            },
+            {
+              "texto": "Acelerar o carregamento",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Na abordagem mobile-first, os estilos base sao escritos primeiro para qual tela?",
+          "alternativas": [
+            {
+              "texto": "Impressao",
+              "correta": false
+            },
+            {
+              "texto": "Telas pequenas",
+              "correta": true
+            },
+            {
+              "texto": "Telas grandes",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual propriedade anima mudancas de estado suavemente?",
+          "alternativas": [
+            {
+              "texto": "smooth",
+              "correta": false
+            },
+            {
+              "texto": "animation-state",
+              "correta": false
+            },
+            {
+              "texto": "transition",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual regra CSS define uma animacao com multiplos estagios?",
+          "alternativas": [
+            {
+              "texto": "@transition",
+              "correta": false
+            },
+            {
+              "texto": "@animation",
+              "correta": false
+            },
+            {
+              "texto": "@keyframes",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual pseudo-classe seleciona um elemento quando o mouse passa por cima?",
+          "alternativas": [
+            {
+              "texto": ":hover",
+              "correta": true
+            },
+            {
+              "texto": ":focus",
+              "correta": false
+            },
+            {
+              "texto": ":active",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual pseudo-elemento insere conteudo antes do elemento selecionado?",
+          "alternativas": [
+            {
+              "texto": "::first",
+              "correta": false
+            },
+            {
+              "texto": "::after",
+              "correta": false
+            },
+            {
+              "texto": "::before",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Na especificidade CSS, o que tem maior peso: um id ou uma classe?",
+          "alternativas": [
+            {
+              "texto": "Uma classe",
+              "correta": false
+            },
+            {
+              "texto": "Um id",
+              "correta": true
+            },
+            {
+              "texto": "Tem o mesmo peso",
+              "correta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "HTML",
+      "disciplina": "Programacao",
+      "questoes": [
+        {
+          "nivel": 1,
+          "enunciado": "Qual declaracao define o tipo do documento como HTML5?",
+          "alternativas": [
+            {
+              "texto": "<!TYPE html>",
+              "correta": false
+            },
+            {
+              "texto": "<!DOCTYPE html>",
+              "correta": true
+            },
+            {
+              "texto": "<html5>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual tag envolve todo o conteudo visivel da pagina?",
+          "alternativas": [
+            {
+              "texto": "<body>",
+              "correta": true
+            },
+            {
+              "texto": "<main>",
+              "correta": false
+            },
+            {
+              "texto": "<head>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual tag contem metadados como titulo e charset da pagina?",
+          "alternativas": [
+            {
+              "texto": "<body>",
+              "correta": false
+            },
+            {
+              "texto": "<head>",
+              "correta": true
+            },
+            {
+              "texto": "<meta>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual tag define o titulo exibido na aba do navegador?",
+          "alternativas": [
+            {
+              "texto": "<header>",
+              "correta": false
+            },
+            {
+              "texto": "<caption>",
+              "correta": false
+            },
+            {
+              "texto": "<title>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual atributo da tag <html> define o idioma da pagina?",
+          "alternativas": [
+            {
+              "texto": "locale",
+              "correta": false
+            },
+            {
+              "texto": "lang",
+              "correta": true
+            },
+            {
+              "texto": "language",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tag cria um paragrafo de texto?",
+          "alternativas": [
+            {
+              "texto": "<p>",
+              "correta": true
+            },
+            {
+              "texto": "<par>",
+              "correta": false
+            },
+            {
+              "texto": "<text>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tag cria o titulo de maior importancia numa pagina?",
+          "alternativas": [
+            {
+              "texto": "<head>",
+              "correta": false
+            },
+            {
+              "texto": "<h1>",
+              "correta": true
+            },
+            {
+              "texto": "<title>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tag forca uma quebra de linha dentro do texto?",
+          "alternativas": [
+            {
+              "texto": "<newline>",
+              "correta": false
+            },
+            {
+              "texto": "<lb>",
+              "correta": false
+            },
+            {
+              "texto": "<br>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tag da enfase forte (negrito semantico) a um texto?",
+          "alternativas": [
+            {
+              "texto": "<bold>",
+              "correta": false
+            },
+            {
+              "texto": "<strong>",
+              "correta": true
+            },
+            {
+              "texto": "<b>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tag da enfase (italico semantico) a um texto?",
+          "alternativas": [
+            {
+              "texto": "<i>",
+              "correta": false
+            },
+            {
+              "texto": "<italic>",
+              "correta": false
+            },
+            {
+              "texto": "<em>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual tag cria um link para outra pagina?",
+          "alternativas": [
+            {
+              "texto": "<href>",
+              "correta": false
+            },
+            {
+              "texto": "<link>",
+              "correta": false
+            },
+            {
+              "texto": "<a>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual atributo da tag <a> define o destino do link?",
+          "alternativas": [
+            {
+              "texto": "target",
+              "correta": false
+            },
+            {
+              "texto": "src",
+              "correta": false
+            },
+            {
+              "texto": "href",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual tag insere uma imagem na pagina?",
+          "alternativas": [
+            {
+              "texto": "<img>",
+              "correta": true
+            },
+            {
+              "texto": "<picture>",
+              "correta": false
+            },
+            {
+              "texto": "<image>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual atributo do <img> descreve a imagem para leitores de tela?",
+          "alternativas": [
+            {
+              "texto": "desc",
+              "correta": false
+            },
+            {
+              "texto": "title",
+              "correta": false
+            },
+            {
+              "texto": "alt",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual valor do atributo target abre o link numa nova aba?",
+          "alternativas": [
+            {
+              "texto": "_new",
+              "correta": false
+            },
+            {
+              "texto": "_blank",
+              "correta": true
+            },
+            {
+              "texto": "_top",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual tag cria uma lista nao ordenada (com marcadores)?",
+          "alternativas": [
+            {
+              "texto": "<ul>",
+              "correta": true
+            },
+            {
+              "texto": "<list>",
+              "correta": false
+            },
+            {
+              "texto": "<ol>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual tag cria uma lista ordenada (numerada)?",
+          "alternativas": [
+            {
+              "texto": "<ol>",
+              "correta": true
+            },
+            {
+              "texto": "<ul>",
+              "correta": false
+            },
+            {
+              "texto": "<li>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual tag define cada item dentro de uma lista?",
+          "alternativas": [
+            {
+              "texto": "<item>",
+              "correta": false
+            },
+            {
+              "texto": "<row>",
+              "correta": false
+            },
+            {
+              "texto": "<li>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual tag inicia uma lista de definicoes (termo e descricao)?",
+          "alternativas": [
+            {
+              "texto": "<dt>",
+              "correta": false
+            },
+            {
+              "texto": "<def>",
+              "correta": false
+            },
+            {
+              "texto": "<dl>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "E possivel colocar uma lista dentro de um item de outra lista?",
+          "alternativas": [
+            {
+              "texto": "Somente em listas ordenadas",
+              "correta": false
+            },
+            {
+              "texto": "Sim",
+              "correta": true
+            },
+            {
+              "texto": "Nao",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual tag cria uma tabela?",
+          "alternativas": [
+            {
+              "texto": "<grid>",
+              "correta": false
+            },
+            {
+              "texto": "<tab>",
+              "correta": false
+            },
+            {
+              "texto": "<table>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual tag define uma linha dentro de uma tabela?",
+          "alternativas": [
+            {
+              "texto": "<row>",
+              "correta": false
+            },
+            {
+              "texto": "<tr>",
+              "correta": true
+            },
+            {
+              "texto": "<td>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual tag define uma celula de dado dentro de uma tabela?",
+          "alternativas": [
+            {
+              "texto": "<th>",
+              "correta": false
+            },
+            {
+              "texto": "<td>",
+              "correta": true
+            },
+            {
+              "texto": "<tr>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual tag define uma celula de cabecalho dentro de uma tabela?",
+          "alternativas": [
+            {
+              "texto": "<td>",
+              "correta": false
+            },
+            {
+              "texto": "<head>",
+              "correta": false
+            },
+            {
+              "texto": "<th>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual tag agrupa as linhas de cabecalho de uma tabela?",
+          "alternativas": [
+            {
+              "texto": "<thead>",
+              "correta": true
+            },
+            {
+              "texto": "<tfoot>",
+              "correta": false
+            },
+            {
+              "texto": "<tbody>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual tag cria um formulario?",
+          "alternativas": [
+            {
+              "texto": "<fieldset>",
+              "correta": false
+            },
+            {
+              "texto": "<input>",
+              "correta": false
+            },
+            {
+              "texto": "<form>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual tag cria um campo de entrada de texto?",
+          "alternativas": [
+            {
+              "texto": "<text>",
+              "correta": false
+            },
+            {
+              "texto": "<field>",
+              "correta": false
+            },
+            {
+              "texto": "<input>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual atributo do <form> define para onde os dados sao enviados?",
+          "alternativas": [
+            {
+              "texto": "destino",
+              "correta": false
+            },
+            {
+              "texto": "target",
+              "correta": false
+            },
+            {
+              "texto": "action",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual tag cria uma caixa de selecao com varias opcoes?",
+          "alternativas": [
+            {
+              "texto": "<dropdown>",
+              "correta": false
+            },
+            {
+              "texto": "<option>",
+              "correta": false
+            },
+            {
+              "texto": "<select>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual valor de type no botao envia os dados do formulario?",
+          "alternativas": [
+            {
+              "texto": "submit",
+              "correta": true
+            },
+            {
+              "texto": "confirm",
+              "correta": false
+            },
+            {
+              "texto": "send",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual tag semantica representa o cabecalho de uma pagina ou secao?",
+          "alternativas": [
+            {
+              "texto": "<head>",
+              "correta": false
+            },
+            {
+              "texto": "<header>",
+              "correta": true
+            },
+            {
+              "texto": "<top>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual tag semantica representa a navegacao principal do site?",
+          "alternativas": [
+            {
+              "texto": "<links>",
+              "correta": false
+            },
+            {
+              "texto": "<menu>",
+              "correta": false
+            },
+            {
+              "texto": "<nav>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual tag semantica representa um conteudo independente, como um post de blog?",
+          "alternativas": [
+            {
+              "texto": "<section>",
+              "correta": false
+            },
+            {
+              "texto": "<article>",
+              "correta": true
+            },
+            {
+              "texto": "<div>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual tag semantica representa o rodape de uma pagina ou secao?",
+          "alternativas": [
+            {
+              "texto": "<end>",
+              "correta": false
+            },
+            {
+              "texto": "<footer>",
+              "correta": true
+            },
+            {
+              "texto": "<bottom>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual tag semantica agrupa uma secao tematica do documento?",
+          "alternativas": [
+            {
+              "texto": "<section>",
+              "correta": true
+            },
+            {
+              "texto": "<article>",
+              "correta": false
+            },
+            {
+              "texto": "<group>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual atributo identifica um elemento de forma unica na pagina?",
+          "alternativas": [
+            {
+              "texto": "id",
+              "correta": true
+            },
+            {
+              "texto": "class",
+              "correta": false
+            },
+            {
+              "texto": "name",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual atributo permite aplicar o mesmo estilo a varios elementos?",
+          "alternativas": [
+            {
+              "texto": "class",
+              "correta": true
+            },
+            {
+              "texto": "id",
+              "correta": false
+            },
+            {
+              "texto": "style",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Atributos de dados personalizados comecam com qual prefixo?",
+          "alternativas": [
+            {
+              "texto": "custom-",
+              "correta": false
+            },
+            {
+              "texto": "data-",
+              "correta": true
+            },
+            {
+              "texto": "attr-",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual atributo desabilita um campo de formulario?",
+          "alternativas": [
+            {
+              "texto": "readonly",
+              "correta": false
+            },
+            {
+              "texto": "disabled",
+              "correta": true
+            },
+            {
+              "texto": "locked",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual atributo torna um campo de formulario obrigatorio?",
+          "alternativas": [
+            {
+              "texto": "required",
+              "correta": true
+            },
+            {
+              "texto": "needed",
+              "correta": false
+            },
+            {
+              "texto": "mandatory",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual tag insere um video nativo em HTML5?",
+          "alternativas": [
+            {
+              "texto": "<movie>",
+              "correta": false
+            },
+            {
+              "texto": "<media>",
+              "correta": false
+            },
+            {
+              "texto": "<video>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual tag insere audio nativo em HTML5?",
+          "alternativas": [
+            {
+              "texto": "<media>",
+              "correta": false
+            },
+            {
+              "texto": "<sound>",
+              "correta": false
+            },
+            {
+              "texto": "<audio>",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual tag insere outra pagina HTML dentro da pagina atual?",
+          "alternativas": [
+            {
+              "texto": "<embed>",
+              "correta": false
+            },
+            {
+              "texto": "<iframe>",
+              "correta": true
+            },
+            {
+              "texto": "<frame>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual atributo do <video> exibe os controles de reproducao?",
+          "alternativas": [
+            {
+              "texto": "buttons",
+              "correta": false
+            },
+            {
+              "texto": "player",
+              "correta": false
+            },
+            {
+              "texto": "controls",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual tag oferece fontes alternativas de midia dentro de <video> ou <audio>?",
+          "alternativas": [
+            {
+              "texto": "<alt>",
+              "correta": false
+            },
+            {
+              "texto": "<source>",
+              "correta": true
+            },
+            {
+              "texto": "<track>",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual meta tag define a codificacao de caracteres da pagina?",
+          "alternativas": [
+            {
+              "texto": "<charset>UTF-8</charset>",
+              "correta": false
+            },
+            {
+              "texto": "<meta charset=\"UTF-8\">",
+              "correta": true
+            },
+            {
+              "texto": "<meta encoding=\"UTF-8\">",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual atributo ARIA descreve a funcao de um elemento para leitores de tela?",
+          "alternativas": [
+            {
+              "texto": "aria-name",
+              "correta": false
+            },
+            {
+              "texto": "type",
+              "correta": false
+            },
+            {
+              "texto": "role",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual meta tag controla zoom e largura em dispositivos moveis?",
+          "alternativas": [
+            {
+              "texto": "mobile",
+              "correta": false
+            },
+            {
+              "texto": "viewport",
+              "correta": true
+            },
+            {
+              "texto": "responsive",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Por que o atributo alt em imagens e importante para acessibilidade?",
+          "alternativas": [
+            {
+              "texto": "Deixa a imagem menor",
+              "correta": false
+            },
+            {
+              "texto": "Acelera o carregamento",
+              "correta": false
+            },
+            {
+              "texto": "Descreve a imagem para leitores de tela",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual atributo permite navegar ate um elemento usando a tecla Tab?",
+          "alternativas": [
+            {
+              "texto": "focusindex",
+              "correta": false
+            },
+            {
+              "texto": "navorder",
+              "correta": false
+            },
+            {
+              "texto": "tabindex",
+              "correta": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "C",
+      "disciplina": "Programacao",
+      "questoes": [
+        {
+          "nivel": 1,
+          "enunciado": "Qual funcao e o ponto de entrada obrigatorio de um programa em C?",
+          "alternativas": [
+            {
+              "texto": "start",
+              "correta": false
+            },
+            {
+              "texto": "init",
+              "correta": false
+            },
+            {
+              "texto": "main",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual biblioteca deve ser incluida para usar a funcao printf?",
+          "alternativas": [
+            {
+              "texto": "stdlib.h",
+              "correta": false
+            },
+            {
+              "texto": "stdio.h",
+              "correta": true
+            },
+            {
+              "texto": "string.h",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual funcao imprime texto formatado no console em C?",
+          "alternativas": [
+            {
+              "texto": "print",
+              "correta": false
+            },
+            {
+              "texto": "printf",
+              "correta": true
+            },
+            {
+              "texto": "cout",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Como se inicia um comentario de uma linha em C moderno?",
+          "alternativas": [
+            {
+              "texto": "--",
+              "correta": false
+            },
+            {
+              "texto": "#",
+              "correta": false
+            },
+            {
+              "texto": "//",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual simbolo finaliza toda instrucao em C?",
+          "alternativas": [
+            {
+              "texto": ".",
+              "correta": false
+            },
+            {
+              "texto": ";",
+              "correta": true
+            },
+            {
+              "texto": ":",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo armazena numeros inteiros em C?",
+          "alternativas": [
+            {
+              "texto": "int",
+              "correta": true
+            },
+            {
+              "texto": "float",
+              "correta": false
+            },
+            {
+              "texto": "char",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo armazena numeros com casas decimais de precisao simples?",
+          "alternativas": [
+            {
+              "texto": "float",
+              "correta": true
+            },
+            {
+              "texto": "double",
+              "correta": false
+            },
+            {
+              "texto": "int",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo armazena um unico caractere em C?",
+          "alternativas": [
+            {
+              "texto": "string",
+              "correta": false
+            },
+            {
+              "texto": "char",
+              "correta": true
+            },
+            {
+              "texto": "byte",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual palavra-chave impede que uma variavel seja modificada apos inicializada?",
+          "alternativas": [
+            {
+              "texto": "static",
+              "correta": false
+            },
+            {
+              "texto": "const",
+              "correta": true
+            },
+            {
+              "texto": "final",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual e o tamanho tipico, em bytes, de um int na maioria dos sistemas atuais?",
+          "alternativas": [
+            {
+              "texto": "2",
+              "correta": false
+            },
+            {
+              "texto": "4",
+              "correta": true
+            },
+            {
+              "texto": "8",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador calcula o resto de uma divisao em C?",
+          "alternativas": [
+            {
+              "texto": "/",
+              "correta": false
+            },
+            {
+              "texto": "//",
+              "correta": false
+            },
+            {
+              "texto": "%",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "O que o operador ++ faz com uma variavel numerica?",
+          "alternativas": [
+            {
+              "texto": "Dobra o valor",
+              "correta": false
+            },
+            {
+              "texto": "Decrementa em 1",
+              "correta": false
+            },
+            {
+              "texto": "Incrementa em 1",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador compara igualdade de valores em C?",
+          "alternativas": [
+            {
+              "texto": "==",
+              "correta": true
+            },
+            {
+              "texto": "=",
+              "correta": false
+            },
+            {
+              "texto": "===",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador logico representa 'OU' em C?",
+          "alternativas": [
+            {
+              "texto": "!",
+              "correta": false
+            },
+            {
+              "texto": "||",
+              "correta": true
+            },
+            {
+              "texto": "&&",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador obtem o endereco de memoria de uma variavel?",
+          "alternativas": [
+            {
+              "texto": "*",
+              "correta": false
+            },
+            {
+              "texto": "#",
+              "correta": false
+            },
+            {
+              "texto": "&",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual estrutura executa um bloco de codigo se uma condicao for verdadeira?",
+          "alternativas": [
+            {
+              "texto": "if",
+              "correta": true
+            },
+            {
+              "texto": "while",
+              "correta": false
+            },
+            {
+              "texto": "switch",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual estrutura escolhe entre multiplos casos com base num valor inteiro?",
+          "alternativas": [
+            {
+              "texto": "for",
+              "correta": false
+            },
+            {
+              "texto": "switch",
+              "correta": true
+            },
+            {
+              "texto": "if",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Em C, qual valor numerico e considerado falso numa condicao?",
+          "alternativas": [
+            {
+              "texto": "-1",
+              "correta": false
+            },
+            {
+              "texto": "0",
+              "correta": true
+            },
+            {
+              "texto": "1",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "O que a palavra break faz dentro de um bloco switch?",
+          "alternativas": [
+            {
+              "texto": "Continua para o proximo case",
+              "correta": false
+            },
+            {
+              "texto": "Interrompe e sai do switch",
+              "correta": true
+            },
+            {
+              "texto": "Reinicia o switch",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "E possivel encadear varias condicoes usando else if em C?",
+          "alternativas": [
+            {
+              "texto": "Somente em funcoes",
+              "correta": false
+            },
+            {
+              "texto": "Nao",
+              "correta": false
+            },
+            {
+              "texto": "Sim",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual loop testa a condicao antes de executar o bloco?",
+          "alternativas": [
+            {
+              "texto": "do-while",
+              "correta": false
+            },
+            {
+              "texto": "for-each",
+              "correta": false
+            },
+            {
+              "texto": "while",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual loop garante que o bloco execute pelo menos uma vez?",
+          "alternativas": [
+            {
+              "texto": "for",
+              "correta": false
+            },
+            {
+              "texto": "do-while",
+              "correta": true
+            },
+            {
+              "texto": "while",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual loop e mais comum quando se sabe o numero de repeticoes?",
+          "alternativas": [
+            {
+              "texto": "if",
+              "correta": false
+            },
+            {
+              "texto": "while",
+              "correta": false
+            },
+            {
+              "texto": "for",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "O que a palavra continue faz dentro de um loop em C?",
+          "alternativas": [
+            {
+              "texto": "Interrompe o loop",
+              "correta": false
+            },
+            {
+              "texto": "Pula para a proxima iteracao",
+              "correta": true
+            },
+            {
+              "texto": "Reinicia o programa",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Um loop for em C tem quantas partes principais entre parenteses?",
+          "alternativas": [
+            {
+              "texto": "2 (condicao, incremento)",
+              "correta": false
+            },
+            {
+              "texto": "4",
+              "correta": false
+            },
+            {
+              "texto": "3 (inicializacao, condicao, incremento)",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Como se declara uma funcao que nao retorna valor em C?",
+          "alternativas": [
+            {
+              "texto": "Usando empty",
+              "correta": false
+            },
+            {
+              "texto": "Usando void",
+              "correta": true
+            },
+            {
+              "texto": "Usando null",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "O que uma funcao definida apos o main precisa ter antes de ser usada?",
+          "alternativas": [
+            {
+              "texto": "Um comentario",
+              "correta": false
+            },
+            {
+              "texto": "Um prototipo (declaracao)",
+              "correta": true
+            },
+            {
+              "texto": "Uma variavel global",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Por padrao, os parametros de uma funcao em C sao passados como?",
+          "alternativas": [
+            {
+              "texto": "Referencia direta",
+              "correta": false
+            },
+            {
+              "texto": "Valor (copia)",
+              "correta": true
+            },
+            {
+              "texto": "Ponteiro obrigatorio",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual palavra-chave devolve um valor de dentro de uma funcao?",
+          "alternativas": [
+            {
+              "texto": "give",
+              "correta": false
+            },
+            {
+              "texto": "yield",
+              "correta": false
+            },
+            {
+              "texto": "return",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Como se chama quando uma funcao chama a si mesma?",
+          "alternativas": [
+            {
+              "texto": "Recursao",
+              "correta": true
+            },
+            {
+              "texto": "Iteracao",
+              "correta": false
+            },
+            {
+              "texto": "Delegacao",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Como se declara um array de 5 inteiros em C?",
+          "alternativas": [
+            {
+              "texto": "int v{5};",
+              "correta": false
+            },
+            {
+              "texto": "int v[5];",
+              "correta": true
+            },
+            {
+              "texto": "array v(5);",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual e o indice do primeiro elemento de um array em C?",
+          "alternativas": [
+            {
+              "texto": "-1",
+              "correta": false
+            },
+            {
+              "texto": "1",
+              "correta": false
+            },
+            {
+              "texto": "0",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Uma string em C e representada internamente como um array de qual tipo?",
+          "alternativas": [
+            {
+              "texto": "int",
+              "correta": false
+            },
+            {
+              "texto": "char",
+              "correta": true
+            },
+            {
+              "texto": "byte",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual caractere especial marca o fim de uma string em C?",
+          "alternativas": [
+            {
+              "texto": "\\n",
+              "correta": false
+            },
+            {
+              "texto": "\\e",
+              "correta": false
+            },
+            {
+              "texto": "\\0",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Arrays multidimensionais em C sao declarados usando o que?",
+          "alternativas": [
+            {
+              "texto": "Parenteses aninhados",
+              "correta": false
+            },
+            {
+              "texto": "Colchetes multiplos, ex: int m[2][3]",
+              "correta": true
+            },
+            {
+              "texto": "Chaves aninhadas",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "O que um ponteiro armazena em C?",
+          "alternativas": [
+            {
+              "texto": "Um endereco de memoria",
+              "correta": true
+            },
+            {
+              "texto": "Um valor inteiro fixo",
+              "correta": false
+            },
+            {
+              "texto": "Um array completo",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual operador declara um ponteiro em C?",
+          "alternativas": [
+            {
+              "texto": "#",
+              "correta": false
+            },
+            {
+              "texto": "*",
+              "correta": true
+            },
+            {
+              "texto": "&",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual operador obtem o endereco de uma variavel?",
+          "alternativas": [
+            {
+              "texto": "*",
+              "correta": false
+            },
+            {
+              "texto": "@",
+              "correta": false
+            },
+            {
+              "texto": "&",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "O que significa 'desreferenciar' um ponteiro?",
+          "alternativas": [
+            {
+              "texto": "Apagar o ponteiro",
+              "correta": false
+            },
+            {
+              "texto": "Criar um novo ponteiro",
+              "correta": false
+            },
+            {
+              "texto": "Acessar o valor no endereco apontado",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Na maioria dos contextos, o nome de um array em C se comporta como o que?",
+          "alternativas": [
+            {
+              "texto": "Uma funcao",
+              "correta": false
+            },
+            {
+              "texto": "Um inteiro",
+              "correta": false
+            },
+            {
+              "texto": "Um ponteiro para o primeiro elemento",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual palavra-chave cria um novo tipo agregando varios campos em C?",
+          "alternativas": [
+            {
+              "texto": "struct",
+              "correta": true
+            },
+            {
+              "texto": "type",
+              "correta": false
+            },
+            {
+              "texto": "class",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Como se acessa um campo de uma struct comum (nao ponteiro)?",
+          "alternativas": [
+            {
+              "texto": "Com colchetes ([])",
+              "correta": false
+            },
+            {
+              "texto": "Com seta (->)",
+              "correta": false
+            },
+            {
+              "texto": "Com ponto (.)",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Como se acessa um campo de uma struct atraves de um ponteiro para ela?",
+          "alternativas": [
+            {
+              "texto": "Com seta (->)",
+              "correta": true
+            },
+            {
+              "texto": "Com asterisco (*)",
+              "correta": false
+            },
+            {
+              "texto": "Com ponto (.)",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "E possivel ter um array de structs em C?",
+          "alternativas": [
+            {
+              "texto": "Nao",
+              "correta": false
+            },
+            {
+              "texto": "Sim",
+              "correta": true
+            },
+            {
+              "texto": "Somente com malloc",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Para que serve o typedef em C?",
+          "alternativas": [
+            {
+              "texto": "Criar um apelido para um tipo",
+              "correta": true
+            },
+            {
+              "texto": "Declarar uma constante",
+              "correta": false
+            },
+            {
+              "texto": "Criar um ponteiro",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual funcao aloca memoria dinamicamente em C?",
+          "alternativas": [
+            {
+              "texto": "alloc",
+              "correta": false
+            },
+            {
+              "texto": "malloc",
+              "correta": true
+            },
+            {
+              "texto": "new",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual funcao libera memoria alocada dinamicamente em C?",
+          "alternativas": [
+            {
+              "texto": "free",
+              "correta": true
+            },
+            {
+              "texto": "release",
+              "correta": false
+            },
+            {
+              "texto": "delete",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "O que acontece se memoria alocada com malloc nunca for liberada?",
+          "alternativas": [
+            {
+              "texto": "Vazamento de memoria (memory leak)",
+              "correta": true
+            },
+            {
+              "texto": "Nada, o sistema libera sozinho sempre",
+              "correta": false
+            },
+            {
+              "texto": "O programa trava na hora",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual funcao realoca um bloco de memoria ja alocado, mudando seu tamanho?",
+          "alternativas": [
+            {
+              "texto": "resize",
+              "correta": false
+            },
+            {
+              "texto": "realloc",
+              "correta": true
+            },
+            {
+              "texto": "remalloc",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Como se chama o erro de acessar memoria depois dela ter sido liberada?",
+          "alternativas": [
+            {
+              "texto": "Overflow de pilha",
+              "correta": false
+            },
+            {
+              "texto": "Ponteiro pendurado (dangling pointer)",
+              "correta": true
+            },
+            {
+              "texto": "Erro de sintaxe",
+              "correta": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Java",
+      "disciplina": "Programacao",
+      "questoes": [
+        {
+          "nivel": 1,
+          "enunciado": "Qual palavra-chave declara uma classe em Java?",
+          "alternativas": [
+            {
+              "texto": "define",
+              "correta": false
+            },
+            {
+              "texto": "struct",
+              "correta": false
+            },
+            {
+              "texto": "class",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual metodo e o ponto de entrada de um programa Java?",
+          "alternativas": [
+            {
+              "texto": "run",
+              "correta": false
+            },
+            {
+              "texto": "start",
+              "correta": false
+            },
+            {
+              "texto": "main",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual comando imprime uma linha no console em Java?",
+          "alternativas": [
+            {
+              "texto": "print",
+              "correta": false
+            },
+            {
+              "texto": "System.out.println",
+              "correta": true
+            },
+            {
+              "texto": "console.log",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Um arquivo .java publico deve ter o nome igual a que?",
+          "alternativas": [
+            {
+              "texto": "A classe publica que ele contem",
+              "correta": true
+            },
+            {
+              "texto": "O metodo main",
+              "correta": false
+            },
+            {
+              "texto": "O pacote do projeto",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 1,
+          "enunciado": "Qual simbolo finaliza uma instrucao em Java?",
+          "alternativas": [
+            {
+              "texto": ":",
+              "correta": false
+            },
+            {
+              "texto": ";",
+              "correta": true
+            },
+            {
+              "texto": ".",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo primitivo armazena numeros inteiros em Java?",
+          "alternativas": [
+            {
+              "texto": "boolean",
+              "correta": false
+            },
+            {
+              "texto": "String",
+              "correta": false
+            },
+            {
+              "texto": "int",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo armazena uma cadeia de texto em Java?",
+          "alternativas": [
+            {
+              "texto": "char",
+              "correta": false
+            },
+            {
+              "texto": "text",
+              "correta": false
+            },
+            {
+              "texto": "String",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual tipo primitivo armazena verdadeiro ou falso?",
+          "alternativas": [
+            {
+              "texto": "boolean",
+              "correta": true
+            },
+            {
+              "texto": "bit",
+              "correta": false
+            },
+            {
+              "texto": "flag",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "Qual palavra-chave impede que uma variavel seja reatribuida?",
+          "alternativas": [
+            {
+              "texto": "const",
+              "correta": false
+            },
+            {
+              "texto": "final",
+              "correta": true
+            },
+            {
+              "texto": "static",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 2,
+          "enunciado": "String em Java e um tipo primitivo ou uma classe?",
+          "alternativas": [
+            {
+              "texto": "Uma classe (objeto)",
+              "correta": true
+            },
+            {
+              "texto": "Um tipo primitivo",
+              "correta": false
+            },
+            {
+              "texto": "Uma interface",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual operador compara igualdade de valores primitivos em Java?",
+          "alternativas": [
+            {
+              "texto": "===",
+              "correta": false
+            },
+            {
+              "texto": "==",
+              "correta": true
+            },
+            {
+              "texto": "equals()",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Por que usar == para comparar Strings pode causar erro em Java?",
+          "alternativas": [
+            {
+              "texto": "So funciona com numeros",
+              "correta": false
+            },
+            {
+              "texto": "Compara referencia, nao o conteudo",
+              "correta": true
+            },
+            {
+              "texto": "E proibido pelo compilador",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual metodo compara corretamente o conteudo de duas Strings?",
+          "alternativas": [
+            {
+              "texto": "same()",
+              "correta": false
+            },
+            {
+              "texto": "equals()",
+              "correta": true
+            },
+            {
+              "texto": "compare()",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual estrutura escolhe entre multiplos casos com base num valor?",
+          "alternativas": [
+            {
+              "texto": "switch",
+              "correta": true
+            },
+            {
+              "texto": "for",
+              "correta": false
+            },
+            {
+              "texto": "if aninhado apenas",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 3,
+          "enunciado": "Qual sintaxe representa o operador ternario em Java?",
+          "alternativas": [
+            {
+              "texto": "if ? then",
+              "correta": false
+            },
+            {
+              "texto": "=> :",
+              "correta": false
+            },
+            {
+              "texto": "? :",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual loop e ideal quando se sabe o numero de repeticoes?",
+          "alternativas": [
+            {
+              "texto": "for",
+              "correta": true
+            },
+            {
+              "texto": "while",
+              "correta": false
+            },
+            {
+              "texto": "do",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual loop testa a condicao antes de executar o bloco?",
+          "alternativas": [
+            {
+              "texto": "do-while",
+              "correta": false
+            },
+            {
+              "texto": "for-each",
+              "correta": false
+            },
+            {
+              "texto": "while",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "Qual estrutura percorre elementos de uma colecao diretamente, sem indice?",
+          "alternativas": [
+            {
+              "texto": "while",
+              "correta": false
+            },
+            {
+              "texto": "switch",
+              "correta": false
+            },
+            {
+              "texto": "for-each (for aprimorado)",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "O que a palavra break faz dentro de um loop?",
+          "alternativas": [
+            {
+              "texto": "Pula uma iteracao",
+              "correta": false
+            },
+            {
+              "texto": "Reinicia o loop",
+              "correta": false
+            },
+            {
+              "texto": "Interrompe o loop",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 4,
+          "enunciado": "O que a palavra continue faz dentro de um loop?",
+          "alternativas": [
+            {
+              "texto": "Finaliza o programa",
+              "correta": false
+            },
+            {
+              "texto": "Pula para a proxima iteracao",
+              "correta": true
+            },
+            {
+              "texto": "Interrompe o loop",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual palavra-chave indica que um metodo nao retorna valor?",
+          "alternativas": [
+            {
+              "texto": "empty",
+              "correta": false
+            },
+            {
+              "texto": "void",
+              "correta": true
+            },
+            {
+              "texto": "null",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Metodos static pertencem a classe ou a uma instancia especifica?",
+          "alternativas": [
+            {
+              "texto": "A instancia",
+              "correta": false
+            },
+            {
+              "texto": "Ao pacote",
+              "correta": false
+            },
+            {
+              "texto": "A classe",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "O que a sobrecarga (overload) de metodos permite?",
+          "alternativas": [
+            {
+              "texto": "Substituir um metodo da classe pai",
+              "correta": false
+            },
+            {
+              "texto": "Varios metodos com mesmo nome e parametros diferentes",
+              "correta": true
+            },
+            {
+              "texto": "Um metodo rodar duas vezes",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Qual palavra-chave devolve um valor de dentro de um metodo?",
+          "alternativas": [
+            {
+              "texto": "give",
+              "correta": false
+            },
+            {
+              "texto": "yield",
+              "correta": false
+            },
+            {
+              "texto": "return",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 5,
+          "enunciado": "Em Java, objetos sao passados para metodos por valor ou por referencia?",
+          "alternativas": [
+            {
+              "texto": "Por referencia direta",
+              "correta": false
+            },
+            {
+              "texto": "Depende do tipo",
+              "correta": false
+            },
+            {
+              "texto": "Por valor (a referencia e copiada)",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Como se declara um array de inteiros em Java?",
+          "alternativas": [
+            {
+              "texto": "int[] v;",
+              "correta": true
+            },
+            {
+              "texto": "int v[];;",
+              "correta": false
+            },
+            {
+              "texto": "array<int> v;",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual propriedade retorna o tamanho de um array em Java?",
+          "alternativas": [
+            {
+              "texto": "size()",
+              "correta": false
+            },
+            {
+              "texto": "count",
+              "correta": false
+            },
+            {
+              "texto": "length",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual e o indice do primeiro elemento de um array em Java?",
+          "alternativas": [
+            {
+              "texto": "0",
+              "correta": true
+            },
+            {
+              "texto": "1",
+              "correta": false
+            },
+            {
+              "texto": "-1",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Arrays em Java tem tamanho fixo ou podem crescer dinamicamente?",
+          "alternativas": [
+            {
+              "texto": "Depende do tipo primitivo",
+              "correta": false
+            },
+            {
+              "texto": "Crescem dinamicamente",
+              "correta": false
+            },
+            {
+              "texto": "Tamanho fixo",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 6,
+          "enunciado": "Qual classe utilitaria ajuda a ordenar arrays em Java?",
+          "alternativas": [
+            {
+              "texto": "Collections",
+              "correta": false
+            },
+            {
+              "texto": "Arrays (Arrays.sort)",
+              "correta": true
+            },
+            {
+              "texto": "Comparator",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual palavra-chave cria uma instancia de uma classe em Java?",
+          "alternativas": [
+            {
+              "texto": "instance",
+              "correta": false
+            },
+            {
+              "texto": "new",
+              "correta": true
+            },
+            {
+              "texto": "create",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "O que e um construtor numa classe Java?",
+          "alternativas": [
+            {
+              "texto": "Metodo que destroi o objeto",
+              "correta": false
+            },
+            {
+              "texto": "Metodo especial que inicializa o objeto",
+              "correta": true
+            },
+            {
+              "texto": "Variavel de instancia",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Qual palavra-chave referencia a propria instancia dentro da classe?",
+          "alternativas": [
+            {
+              "texto": "self",
+              "correta": false
+            },
+            {
+              "texto": "instance",
+              "correta": false
+            },
+            {
+              "texto": "this",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "Atributos privados de uma classe podem ser acessados de onde?",
+          "alternativas": [
+            {
+              "texto": "Somente de dentro da propria classe",
+              "correta": true
+            },
+            {
+              "texto": "De qualquer classe do pacote",
+              "correta": false
+            },
+            {
+              "texto": "De qualquer lugar do programa",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 7,
+          "enunciado": "O que encapsulamento significa em programacao orientada a objetos?",
+          "alternativas": [
+            {
+              "texto": "Herdar de varias classes",
+              "correta": false
+            },
+            {
+              "texto": "Esconder detalhes internos e controlar o acesso",
+              "correta": true
+            },
+            {
+              "texto": "Executar codigo em paralelo",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual palavra-chave faz uma classe herdar de outra em Java?",
+          "alternativas": [
+            {
+              "texto": "implements",
+              "correta": false
+            },
+            {
+              "texto": "inherits",
+              "correta": false
+            },
+            {
+              "texto": "extends",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Qual palavra-chave faz uma classe implementar uma interface?",
+          "alternativas": [
+            {
+              "texto": "extends",
+              "correta": false
+            },
+            {
+              "texto": "implements",
+              "correta": true
+            },
+            {
+              "texto": "uses",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Antes do Java 8, metodos de uma interface eram implicitamente do que?",
+          "alternativas": [
+            {
+              "texto": "Privados",
+              "correta": false
+            },
+            {
+              "texto": "Estaticos",
+              "correta": false
+            },
+            {
+              "texto": "Abstratos",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "O que a chamada super() faz dentro de um construtor?",
+          "alternativas": [
+            {
+              "texto": "Cria uma nova instancia",
+              "correta": false
+            },
+            {
+              "texto": "Chama o construtor da classe pai",
+              "correta": true
+            },
+            {
+              "texto": "Remove a heranca",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 8,
+          "enunciado": "Java permite heranca multipla entre classes?",
+          "alternativas": [
+            {
+              "texto": "Nao, so entre interfaces",
+              "correta": true
+            },
+            {
+              "texto": "Sim, sempre",
+              "correta": false
+            },
+            {
+              "texto": "Somente com generics",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual interface representa uma lista ordenada que permite duplicatas?",
+          "alternativas": [
+            {
+              "texto": "List",
+              "correta": true
+            },
+            {
+              "texto": "Set",
+              "correta": false
+            },
+            {
+              "texto": "Map",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual classe implementa List usando um array redimensionavel internamente?",
+          "alternativas": [
+            {
+              "texto": "LinkedList",
+              "correta": false
+            },
+            {
+              "texto": "ArrayList",
+              "correta": true
+            },
+            {
+              "texto": "HashSet",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual interface representa uma colecao de pares chave-valor?",
+          "alternativas": [
+            {
+              "texto": "List",
+              "correta": false
+            },
+            {
+              "texto": "Map",
+              "correta": true
+            },
+            {
+              "texto": "Set",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual classe implementa Map com base numa tabela hash?",
+          "alternativas": [
+            {
+              "texto": "HashMap",
+              "correta": true
+            },
+            {
+              "texto": "TreeMap",
+              "correta": false
+            },
+            {
+              "texto": "ArrayMap",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 9,
+          "enunciado": "Qual interface representa uma colecao sem elementos duplicados?",
+          "alternativas": [
+            {
+              "texto": "List",
+              "correta": false
+            },
+            {
+              "texto": "Set",
+              "correta": true
+            },
+            {
+              "texto": "Queue",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual bloco captura uma excecao lancada durante a execucao?",
+          "alternativas": [
+            {
+              "texto": "catch",
+              "correta": true
+            },
+            {
+              "texto": "throw",
+              "correta": false
+            },
+            {
+              "texto": "finally",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual bloco sempre executa, tenha ocorrido excecao ou nao?",
+          "alternativas": [
+            {
+              "texto": "catch",
+              "correta": false
+            },
+            {
+              "texto": "finally",
+              "correta": true
+            },
+            {
+              "texto": "try",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Qual palavra-chave lanca manualmente uma excecao?",
+          "alternativas": [
+            {
+              "texto": "throw",
+              "correta": true
+            },
+            {
+              "texto": "catch",
+              "correta": false
+            },
+            {
+              "texto": "raise",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "Excecoes que precisam ser declaradas ou tratadas obrigatoriamente sao chamadas de que?",
+          "alternativas": [
+            {
+              "texto": "Unchecked exceptions",
+              "correta": false
+            },
+            {
+              "texto": "Runtime exceptions",
+              "correta": false
+            },
+            {
+              "texto": "Checked exceptions",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "nivel": 10,
+          "enunciado": "O que Generics (como List<String>) ajudam a garantir?",
+          "alternativas": [
+            {
+              "texto": "Menos uso de memoria",
+              "correta": false
+            },
+            {
+              "texto": "Seguranca de tipos em tempo de compilacao",
+              "correta": true
+            },
+            {
+              "texto": "Execucao mais rapida sempre",
+              "correta": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

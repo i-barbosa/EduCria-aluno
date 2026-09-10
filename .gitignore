@@ -1,0 +1,9 @@
+# Configuracao local do Claude Code, nao compartilhada
+.claude/settings.local.json
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
