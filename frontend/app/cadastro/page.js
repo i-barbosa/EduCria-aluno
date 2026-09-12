@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { cadastrar } from "@/lib/api";
-import { salvarCadastroPendente } from "@/lib/sessao";
+import { cadastroPendente } from "@/lib/clientSession";
 import LogoEducria from "@/components/LogoEducria";
 import Tagline from "@/components/Tagline";
 
@@ -24,7 +24,7 @@ export default function PaginaCadastro() {
         setErro("Esse e-mail ja tem cadastro. Tente entrar em vez de cadastrar de novo.");
         return;
       }
-      salvarCadastroPendente({ nome: resultado.aluno.nome, email: resultado.aluno.email });
+      cadastroPendente.salvar({ nome: resultado.aluno.nome, email: resultado.aluno.email });
       router.push("/aguardando");
     } catch {
       setErro("Nao foi possivel cadastrar. O servidor esta rodando?");

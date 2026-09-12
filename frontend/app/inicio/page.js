@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { buscarAssuntos, buscarProgresso } from "@/lib/api";
-import { encerrarSessao, lerSessao } from "@/lib/sessao";
+import { sessaoAluno } from "@/lib/clientSession";
 import Cabecalho from "@/components/Cabecalho";
 
 const QUESTOES_POR_SESSAO = 5;
@@ -17,7 +17,7 @@ export default function PaginaInicio() {
   const [erro, setErro] = useState("");
 
   useEffect(() => {
-    const atual = lerSessao();
+    const atual = sessaoAluno.ler();
     if (!atual) {
       router.replace("/");
       return;
@@ -41,7 +41,7 @@ export default function PaginaInicio() {
   }
 
   function sair() {
-    encerrarSessao();
+    sessaoAluno.encerrar();
     router.push("/");
   }
 

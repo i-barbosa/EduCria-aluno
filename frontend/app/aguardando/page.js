@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { buscarStatus } from "@/lib/api";
-import { encerrarCadastroPendente, lerCadastroPendente } from "@/lib/sessao";
+import { cadastroPendente } from "@/lib/clientSession";
 import LogoEducria from "@/components/LogoEducria";
 import Tagline from "@/components/Tagline";
 
@@ -15,7 +15,7 @@ export default function PaginaAguardando() {
   const [aprovado, setAprovado] = useState(null);
 
   useEffect(() => {
-    const atual = lerCadastroPendente();
+    const atual = cadastroPendente.ler();
     if (!atual) {
       router.replace("/cadastro");
       return;
@@ -42,12 +42,12 @@ export default function PaginaAguardando() {
   }
 
   function irParaLogin() {
-    encerrarCadastroPendente();
+    cadastroPendente.encerrar();
     router.push("/");
   }
 
   function sair() {
-    encerrarCadastroPendente();
+    cadastroPendente.encerrar();
     router.push("/");
   }
 

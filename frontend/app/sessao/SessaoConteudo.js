@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { buscarProgresso, buscarProximaQuestao, responderTentativa } from "@/lib/api";
-import { encerrarSessao, lerSessao } from "@/lib/sessao";
+import { sessaoAluno } from "@/lib/clientSession";
 import Cabecalho from "@/components/Cabecalho";
 
 const LETRAS = ["A", "B", "C", "D", "E"];
@@ -32,7 +32,7 @@ export default function SessaoConteudo() {
   const [erro, setErro] = useState("");
 
   useEffect(() => {
-    const atual = lerSessao();
+    const atual = sessaoAluno.ler();
     if (!atual || !assuntoId) {
       router.replace("/inicio");
       return;
@@ -101,7 +101,7 @@ export default function SessaoConteudo() {
   }
 
   function sair() {
-    encerrarSessao();
+    sessaoAluno.encerrar();
     router.push("/");
   }
 

@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { login } from "@/lib/api";
-import { salvarSessao } from "@/lib/sessao";
+import { sessaoAluno } from "@/lib/clientSession";
 import LogoEducria from "@/components/LogoEducria";
 import Tagline from "@/components/Tagline";
 
@@ -24,7 +24,7 @@ export default function PaginaLogin() {
         setErro("Matricula ou senha incorreta.");
         return;
       }
-      salvarSessao(resultado);
+      sessaoAluno.salvar(resultado);
       router.push("/inicio");
     } catch {
       setErro("Nao foi possivel falar com o servidor. Ele esta rodando?");

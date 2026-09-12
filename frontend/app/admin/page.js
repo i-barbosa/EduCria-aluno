@@ -8,7 +8,7 @@ import {
   criarTurma,
   loginAdmin,
 } from "@/lib/api";
-import { encerrarSessaoAdmin, lerSessaoAdmin, salvarSessaoAdmin } from "@/lib/adminSessao";
+import { sessaoAdmin } from "@/lib/clientSession";
 import LogoEducria from "@/components/LogoEducria";
 
 export default function PaginaAdmin() {
@@ -32,12 +32,12 @@ export default function PaginaAdmin() {
       setPendentes(p);
     } catch {
       setAutenticado(false);
-      encerrarSessaoAdmin();
+      sessaoAdmin.encerrar();
     }
   }, []);
 
   useEffect(() => {
-    const token = lerSessaoAdmin();
+    const token = sessaoAdmin.ler()?.token;
     if (!token) {
       setVerificandoSessao(false);
       return;
@@ -58,7 +58,7 @@ export default function PaginaAdmin() {
         setErroLogin("Senha incorreta.");
         return;
       }
-      salvarSessaoAdmin(resultado.token);
+      sessaoAdmin.salvar({ token: resultado.token });
       await carregarDados(resultado.token);
       setAutenticado(true);
     } catch {
@@ -69,7 +69,7 @@ export default function PaginaAdmin() {
   }
 
   function sair() {
-    encerrarSessaoAdmin();
+    sessaoAdmin.encerrar();
     setAutenticado(false);
     setSenha("");
   }
@@ -77,7 +77,7 @@ export default function PaginaAdmin() {
   async function criar(evento) {
     evento.preventDefault();
     setErroTurma("");
-    const token = lerSessaoAdmin();
+    const token = sessaoAdmin.ler()?.token;
     const resultado = await criarTurma(token, nomeNovaTurma.trim());
     if (resultado.conflito) {
       setErroTurma("Ja existe uma turma com esse nome.");
@@ -90,7 +90,7 @@ export default function PaginaAdmin() {
   async function aprovar(alunoId) {
     const turmaId = selecaoTurma[alunoId];
     if (!turmaId) return;
-    const token = lerSessaoAdmin();
+    const token = sessaoAdmin.ler()?.token;
     const resultado = await aprovarAluno(token, alunoId, Number(turmaId));
     setAviso(resultado);
     carregarDados(token);
